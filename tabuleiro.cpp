@@ -56,10 +56,46 @@ bool Tabuleiro::VerificaLinha(){
     return true;
 }
 
-bool Tabuleiro:: VerificaColuna(){
+bool Tabuleiro::VerificaColuna(){
 
     for(int coluna = 0; coluna < 9; coluna++){
         
-        
+        int aux[10] = {0};
+        int inicio = coluna;
+
+        for(int i = inicio; i < 81; i += 9){
+
+            aux[grade[i]]++;
+
+            if(aux[grade[i]] > 1 && grade[i] != 0){
+
+                return false;
+            }
+        }
     }
+
+    return true;
+}
+
+bool Tabuleiro::VerificaQuadrante(){
+
+    for(int quadrante = 0; quadrante < 9; quadrante++){
+
+        int aux[10] = {0};
+        int inicio = 27 * (quadrante / 3) + (quadrante % 3) * 3;
+        int gradeAtual = inicio;
+        
+        for(int i = 0; i < 9; i++){
+
+            gradeAtual = inicio + (i / 3) * 9 + (i % 3);
+            aux[grade[gradeAtual]]++;
+
+            if(aux[grade[gradeAtual]] > 1 && grade[gradeAtual] != 0){
+
+                return false;   
+            }
+        }
+    }
+
+    return true;
 }
