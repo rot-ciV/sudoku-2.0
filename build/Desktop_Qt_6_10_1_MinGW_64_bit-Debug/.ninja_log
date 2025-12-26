@@ -1,0 +1,9 @@
+# ninja log v6
+5	568	7880557553347091	sudoku_autogen/timestamp	3e8867ad7914eed9
+5	568	7880557553347091	sudoku_autogen/mocs_compilation.cpp	3e8867ad7914eed9
+5	568	7880557553347091	C:/Dev/sudoku/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/sudoku_autogen/timestamp	3e8867ad7914eed9
+5	568	7880557553347091	C:/Dev/sudoku/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/sudoku_autogen/mocs_compilation.cpp	3e8867ad7914eed9
+577	2052	7880557554138286	CMakeFiles/sudoku.dir/main.cpp.obj	d4b42b43cd092254
+581	2095	7880557554148426	CMakeFiles/sudoku.dir/mainwindow.cpp.obj	eb1deff5a0767e80
+574	2101	7880557554111197	CMakeFiles/sudoku.dir/sudoku_autogen/mocs_compilation.cpp.obj	3835fc8750148f77
+2101	2394	7880557569381487	sudoku.exe	5ece0e598dcc7856

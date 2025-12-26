@@ -1,0 +1,14 @@
+# Ignorar arquivos de build do Qt
+build/
+build-*/
+*.pro.user
+*.pro.user.*
+*.o
+*.moc
+*.exe
+*.dll
+Makefile
+Makefile*
+.qmake.stash
+debug/
+release/
